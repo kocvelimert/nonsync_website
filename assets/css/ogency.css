@@ -4206,7 +4206,8 @@ h6 {
   -webkit-transition: -webkit-transform 400ms ease;
   transition: -webkit-transform 400ms ease;
   transition: transform 400ms ease;
-  transition: transform 400ms ease,  -webkit-transform 500ms ease;
+  transition: transform 400ms ease, 
+ -webkit-transform 500ms ease;
 }
 
 @media (max-width: 360px) {
@@ -4276,7 +4277,8 @@ h6 {
   -webkit-transition: -webkit-transform 500ms ease;
   transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
-  transition: transform 500ms ease,  -webkit-transform 500ms ease;
+  transition: transform 500ms ease, 
+ -webkit-transform 500ms ease;
   z-index: 2;
 }
 
@@ -4618,19 +4620,18 @@ h6 {
 }
 
 .about-three__thumb--one img {
-  mix-blend-mode: luminosity;
   max-width: 100%;
+  
 }
 
 .about-three__thumb--two {
-  background-color: var(--ogency-black2);
   display: inline-block;
   position: relative;
 }
 
 .about-three__thumb--two img {
-  mix-blend-mode: luminosity;
   max-width: 100%;
+  
 }
 
 .about-three__content {
@@ -5761,7 +5762,6 @@ h6 {
 
 .project-two__item__image img {
   width: 100%;
-  mix-blend-mode: luminosity;
   transition: all 500ms ease;
   transform: scale(1);
 }
@@ -5960,7 +5960,7 @@ h6 {
 
 .team-one__item__image {
   position: relative;
-  background-color: var(--ogency-black);
+  background-color: grey;
 }
 
 .team-one__item__image::after {
@@ -5980,7 +5980,6 @@ h6 {
 .team-one__item__image img {
   width: 100%;
   height: auto;
-  mix-blend-mode: luminosity;
 }
 
 .team-one__item:hover .team-one__item__image::after {
@@ -8300,7 +8299,6 @@ h6 {
   right: 0;
   bottom: 0;
   opacity: .40;
-  mix-blend-mode: luminosity;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
